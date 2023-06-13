@@ -9,6 +9,7 @@ public class MyController {
 
     @GetMapping("/hello")
     public String sayHello(){
+
         return "hello";
     }
 }
