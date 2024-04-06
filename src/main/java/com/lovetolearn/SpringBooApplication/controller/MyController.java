@@ -12,4 +12,10 @@ public class MyController {
 
         return "hello";
     }
+
+    @GetMapping("/hell")
+    public String sayHelo(){
+
+        return "hello";
+    }
 }
